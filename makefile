@@ -36,8 +36,15 @@ check-dep:
 dev: check-dep
 	MAKE_TARGET=dev make subdirs-job $(MAKE_FLAG)
 
-build: check-dep
-	MAKE_TARGET=build make subdirs-job $(MAKE_FLAG)
+build:
+	@echo "$(P) Run build"
+	$(BIN_DIR)/lerna run --stream --sort build
+
+publish:
+	@echo "$(P) Run publish"
+	$(BIN_DIR)/lerna publish from-git
+
+release: build publish
 
 clean:
 	MAKE_TARGET=clean make subdirs-job $(MAKE_FLAG)
@@ -70,4 +77,4 @@ cp-make:
 	@echo "$(P) Copy \`dev/source.makefile\` to packages"
 	@for package in $(SUBDIRS); do cp -v dev/source.makefile $$package\makefile; done
 
-.PHONY: prettier lint dev clean subdirs-job $(SUBDIRS) build link cp-make
+.PHONY: prettier lint dev version clean subdirs-job $(SUBDIRS) build link cp-make
