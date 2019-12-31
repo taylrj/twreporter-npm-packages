@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.7](https://github.com/twreporter/twreporter-npm-packages/compare/@twreporter/index-page@1.0.7-alpha.0...@twreporter/index-page@1.0.7) (2019-12-31)
+
+**Note:** Version bump only for package @twreporter/index-page
+
 ## 1.0.7-alpha.0 (2019-12-31)
 
 **Note:** Version bump only for package @twreporter/index-page

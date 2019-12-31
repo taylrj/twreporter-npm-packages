@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.0.4](https://github.com/twreporter/twreporter-npm-packages/compare/@twreporter/react-components@8.0.4-alpha.0...@twreporter/react-components@8.0.4) (2019-12-31)
+
+**Note:** Version bump only for package @twreporter/react-components
+
 ## 8.0.4-alpha.0 (2019-12-31)
 
 ### Bug Fixes
