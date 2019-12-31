@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 8.0.4-alpha.0 (2019-12-31)
+
+### Bug Fixes
+
+- [react-components] bookmark-widget error on ssr ([cd51d8d](https://github.com/twreporter/twreporter-npm-packages/commit/cd51d8d660452dd10fb4532757d3d55dc4e1715b))
+
 ## [8.0.3](https://github.com/twreporter/twreporter-npm-packages/compare/@twreporter/react-components@8.0.3-rc.5...@twreporter/react-components@8.0.3) (2019-11-26)
 
 **Note:** Version bump only for package @twreporter/react-components
