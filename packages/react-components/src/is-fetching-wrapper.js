@@ -4,6 +4,8 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
 
+// test
+
 const spinnerLogoUrl = `${storage.google.schema}://${storage.google.hostname}/${storage.google.bucket}/images/spinner-logo.gif`
 
 const FetchingBlock = styled.div`
